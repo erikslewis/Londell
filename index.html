@@ -225,13 +225,44 @@ h2{
 
   .person {
       border: 10px solid transparent;
-      border-color: silver;
+      border-top: 10px solid gray;
+      border-bottom: 10px solid gray;
+      border-left: 10px solid #00CC33;
+      border-right:10px solid #00CC33;
       margin-bottom: 25px;
       width: 100%;
       height: 36%;
       opacity: 0.7;
   }
   .person:hover {
+      border-color: red;
+  }
+  .person1 {
+      border: 10px solid transparent;
+      border-top: 10px solid red;
+      border-bottom: 10px solid red;
+      border-left: 10px solid navy;
+      border-right:10px solid navy;
+      margin-bottom: 25px;
+      width: 100%;
+      height: 36%;
+      opacity: 0.7;
+  }
+  .person1:hover {
+      border-color: red;
+  }
+  .person2{
+      border: 10px solid transparent;
+      border-top: 10px solid white;
+      border-bottom: 10px solid white;
+      border-left: 10px solid red;
+      border-right:10px solid red;
+      margin-bottom: 25px;
+      width: 100%;
+      height: 36%;
+      opacity: 0.7;
+  }
+  .person2:hover {
       border-color: red;
   }
   .carousel-inner img {
@@ -356,6 +387,15 @@ h2{
   img.colorado{
     width: 99%;
     height: 34%;
+  }
+  img.colorado10{
+    width: 99%;
+    height: 34%;
+    background-color: red;
+    border-radius: 17%;
+    border-style: double;
+    border-width: thick;
+    border-color: white;
   }
   img.colorado1{
     width: 99%;
@@ -512,7 +552,7 @@ h2{
     <div class="col-sm-4">
       <h2 class="text-center"><strong><img class="colorado" src="img/New-USAPL-Logo.png" alt=""></strong></h2><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="img/usa.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="img/usa.jpg" class="img-circle person1" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
         <p>USAPL Power Level</p>
@@ -543,9 +583,9 @@ h2{
       </div>
     </div>
     <div class="col-sm-4">
-      <h2 class="text-center"><strong><img class="colorado" src="img/fix.png" alt=""></strong></h2><br>
+      <h2 class="text-center"><strong><img class="colorado10" src="img/spf_dark-1.png" alt=""></strong></h2><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="img/15235655_10154653661074034_272556008003922985_o.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="img/15235655_10154653661074034_272556008003922985_o.jpg" class="img-circle person2" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
         <p>SPF Power Level</p>
